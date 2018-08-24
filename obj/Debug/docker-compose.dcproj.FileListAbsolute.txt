@@ -1,0 +1,1 @@
+C:\GitRepos\aspdotnet-mvc5-fundamentals\OWINSample\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
