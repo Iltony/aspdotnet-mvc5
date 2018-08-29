@@ -333,3 +333,6 @@ ASALocalRun/
 /KatanaSample/KatanaSample/obj/Debug/*
 /KatanaSample/KatanaSample/bin/Debug/*
 /*.vs/
+
+.*
+!/.gitignore
