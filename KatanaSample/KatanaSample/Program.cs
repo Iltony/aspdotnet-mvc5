@@ -32,10 +32,35 @@ namespace KatanaSample
     {
         public void Configuration(IAppBuilder app)
         {
-            app.Use<HelloWorldComponent>();
+            //app.Use(async (env, next) =>
+            //{
+            //    foreach (var pair in env.Environment)
+            //    {
+            //        Console.WriteLine($"{pair.Key}: {pair.Value}");
+            //    }
+            //    await next();
+            //});
+
+            app.Use(async (env, next) =>
+            {
+                Console.WriteLine($"Requesting: {env.Request.Path}");
+                await next();
+                Console.WriteLine($"Response: {env.Response.StatusCode}");
+            });
+
+            app.UseHelloWorld();
+
             //app.Run(ctx => {
             //    return ctx.Response.WriteAsync("Hello world!!");
             //});
+        }
+    }
+    
+    public static class AppBuilderExtensions
+    {
+        public static void UseHelloWorld(this IAppBuilder app)
+        {
+            app.Use<HelloWorldComponent>();
         }
     }
 
