@@ -328,3 +328,8 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+
+/OWINSample/KatanaSample/KatanaSample/obj/Debug/*
+/KatanaSample/KatanaSample/obj/Debug/*
+/KatanaSample/KatanaSample/bin/Debug/*
+/*.vs/
