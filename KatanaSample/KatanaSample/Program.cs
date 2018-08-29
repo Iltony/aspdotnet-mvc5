@@ -6,6 +6,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.Http;
 
 // Course https://app.pluralsight.com/player?course=aspdotnet-mvc5-fundamentals
 namespace KatanaSample
@@ -32,15 +33,6 @@ namespace KatanaSample
     {
         public void Configuration(IAppBuilder app)
         {
-            //app.Use(async (env, next) =>
-            //{
-            //    foreach (var pair in env.Environment)
-            //    {
-            //        Console.WriteLine($"{pair.Key}: {pair.Value}");
-            //    }
-            //    await next();
-            //});
-
             app.Use(async (env, next) =>
             {
                 Console.WriteLine($"Requesting: {env.Request.Path}");
@@ -48,11 +40,19 @@ namespace KatanaSample
                 Console.WriteLine($"Response: {env.Response.StatusCode}");
             });
 
+            ConfigureWebApi(app);
             app.UseHelloWorld();
+        }
 
-            //app.Run(ctx => {
-            //    return ctx.Response.WriteAsync("Hello world!!");
-            //});
+        private void ConfigureWebApi(IAppBuilder app)
+        {
+            var config = new HttpConfiguration();
+            config.Routes.MapHttpRoute(
+                "DefaultApi",
+                "api/{controller}/{id}",
+                new { id = RouteParameter.Optional });
+
+            app.UseWebApi(config);
         }
     }
     

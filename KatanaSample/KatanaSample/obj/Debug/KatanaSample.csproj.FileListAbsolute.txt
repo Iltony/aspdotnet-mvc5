@@ -13,3 +13,11 @@ C:\GitRepos\aspdotnet-mvc5-fundamentals\OWINSample\KatanaSample\KatanaSample\obj
 C:\GitRepos\aspdotnet-mvc5-fundamentals\OWINSample\KatanaSample\KatanaSample\obj\Debug\KatanaSample.csproj.CopyComplete
 C:\GitRepos\aspdotnet-mvc5-fundamentals\OWINSample\KatanaSample\KatanaSample\obj\Debug\KatanaSample.exe
 C:\GitRepos\aspdotnet-mvc5-fundamentals\OWINSample\KatanaSample\KatanaSample\obj\Debug\KatanaSample.pdb
+C:\GitRepos\aspdotnet-mvc5-fundamentals\OWINSample\KatanaSample\KatanaSample\bin\Debug\Newtonsoft.Json.dll
+C:\GitRepos\aspdotnet-mvc5-fundamentals\OWINSample\KatanaSample\KatanaSample\bin\Debug\System.Net.Http.Formatting.dll
+C:\GitRepos\aspdotnet-mvc5-fundamentals\OWINSample\KatanaSample\KatanaSample\bin\Debug\System.Web.Http.dll
+C:\GitRepos\aspdotnet-mvc5-fundamentals\OWINSample\KatanaSample\KatanaSample\bin\Debug\System.Web.Http.Owin.dll
+C:\GitRepos\aspdotnet-mvc5-fundamentals\OWINSample\KatanaSample\KatanaSample\bin\Debug\Newtonsoft.Json.xml
+C:\GitRepos\aspdotnet-mvc5-fundamentals\OWINSample\KatanaSample\KatanaSample\bin\Debug\System.Net.Http.Formatting.xml
+C:\GitRepos\aspdotnet-mvc5-fundamentals\OWINSample\KatanaSample\KatanaSample\bin\Debug\System.Web.Http.xml
+C:\GitRepos\aspdotnet-mvc5-fundamentals\OWINSample\KatanaSample\KatanaSample\bin\Debug\System.Web.Http.Owin.xml

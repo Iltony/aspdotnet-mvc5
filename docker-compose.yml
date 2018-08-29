@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  owinsample:
-    image: ${DOCKER_REGISTRY}owinsample
-    build:
-      context: .\OWINSample
-      dockerfile: Dockerfile

@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OWINSample", "OWINSample\OWINSample.csproj", "{D385DCB0-8211-4A8E-A06C-885A207885E7}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KatanaSample", "KatanaSample\KatanaSample\KatanaSample.csproj", "{CC08B30F-9DAF-4182-89BA-EC1688942845}"
 EndProject
 Global
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D385DCB0-8211-4A8E-A06C-885A207885E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D385DCB0-8211-4A8E-A06C-885A207885E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D385DCB0-8211-4A8E-A06C-885A207885E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D385DCB0-8211-4A8E-A06C-885A207885E7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CC08B30F-9DAF-4182-89BA-EC1688942845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CC08B30F-9DAF-4182-89BA-EC1688942845}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC08B30F-9DAF-4182-89BA-EC1688942845}.Release|Any CPU.ActiveCfg = Release|Any CPU
