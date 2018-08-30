@@ -13,21 +13,23 @@ namespace KatanaSample
 {
     using AppFunc = Func<IDictionary<string, object>, Task>;
 
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            string url = "http://localhost:8086";
+    // Leave the managment of the app to IIS, commented out this code, leaving the startup and changing in project properties
+    // the output type as Class Library and the output folder to bin instead of bin/debug. With these changes is enought
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        string url = "http://localhost:8086";
 
-            using (WebApp.Start<Startup>(url))
-            {
-                Console.WriteLine("Started!");
-                Console.ReadKey();
-                Console.WriteLine("Stopping!");
-            }
+    //        using (WebApp.Start<Startup>(url))
+    //        {
+    //            Console.WriteLine("Started!");
+    //            Console.ReadKey();
+    //            Console.WriteLine("Stopping!");
+    //        }
 
-        }
-    }
+    //    }
+    //}
 
     public class Startup
     {

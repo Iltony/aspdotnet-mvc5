@@ -14,5 +14,4 @@ namespace KatanaSample
             return new Greeting { Text = "Hello world!" };
         }
     }
-
 }
