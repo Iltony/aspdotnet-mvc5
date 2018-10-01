@@ -1,0 +1,26 @@
+﻿@model OWINSample.Models.MapsModel
+
+@{
+    ViewBag.Title = "Default";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=@(Model.MapsKey)' async defer></script>
+}
+
+<h2>El lifle es supel peligloso (RY)</h2>
+<hr />
+
+@*<div id="testMap" class="col-md-6" style="position:relative;width:800px;height:600px;"></div>*@
+<div id="testMap" class="col-md-6" style="position:relative;height:600px;"></div>
+<div id="testCoords" class="col-md-6" style="position:relative;height:600px;"></div>
+
+<div id='directionsItinerary'></div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/bundles/mapRender")
+
+}
+

@@ -16,6 +16,8 @@ namespace OWINSample.Models
             // Add custom user claims here
             return userIdentity;
         }
+
+        public string FavoriteMovie { get; set; }
     }
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
@@ -25,9 +27,17 @@ namespace OWINSample.Models
         {
         }
 
+        public DbSet<Movie> Movies{ get; set; }
+
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();
+        }
+
+        public class Movie {
+            public int Id { get; set; }
+
+            public string Title { get; set; }
         }
     }
 }

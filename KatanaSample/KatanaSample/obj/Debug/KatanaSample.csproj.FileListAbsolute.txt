@@ -45,3 +45,8 @@ C:\GitRepos\aspdotnet-mvc5\KatanaSample\KatanaSample\obj\Debug\KatanaSample.cspr
 C:\GitRepos\aspdotnet-mvc5\KatanaSample\KatanaSample\obj\Debug\KatanaSample.csproj.CopyComplete
 C:\GitRepos\aspdotnet-mvc5\KatanaSample\KatanaSample\obj\Debug\KatanaSample.dll
 C:\GitRepos\aspdotnet-mvc5\KatanaSample\KatanaSample\obj\Debug\KatanaSample.pdb
+C:\GitRepos\aspdotnet-mvc5\KatanaSample\KatanaSample\bin\KatanaSample.dll.config
+C:\GitRepos\aspdotnet-mvc5\KatanaSample\KatanaSample\bin\EntityFramework.dll
+C:\GitRepos\aspdotnet-mvc5\KatanaSample\KatanaSample\bin\EntityFramework.SqlServer.dll
+C:\GitRepos\aspdotnet-mvc5\KatanaSample\KatanaSample\bin\EntityFramework.xml
+C:\GitRepos\aspdotnet-mvc5\KatanaSample\KatanaSample\bin\EntityFramework.SqlServer.xml

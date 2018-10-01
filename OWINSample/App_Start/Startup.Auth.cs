@@ -60,8 +60,8 @@ namespace OWINSample
 
             //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             //{
-            //    ClientId = "",
-            //    ClientSecret = ""
+            //    ClientId = "1018811832420-oie692acpkef9u6k2ndan86c6vlrpue2.apps.googleusercontent.com",
+            //    ClientSecret = "UgmcYyMXWxzttnUDD0cZuFLa"
             //});
         }
     }
